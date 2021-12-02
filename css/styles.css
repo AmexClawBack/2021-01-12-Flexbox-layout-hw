@@ -1,0 +1,89 @@
+html {
+    
+   width: auto;
+   height: auto;
+   border: 1px solid red;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 0px;
+}
+
+div {
+    width: 100%;
+    height: 50px;
+    border: 1px solid blue;
+    background-color: rgb(136, 51, 136);
+}
+
+#navbar {
+    height: 60px;
+    position: fixed;
+    background-color: white;
+
+}
+
+#video-bg {
+    height: 620px;
+    background-color: tan
+    
+    
+}
+
+#grey-space {
+    height: ;
+    background-color:  	#282828
+}
+
+#parallax-bg {
+    height: 550px;
+    background-image: url("#");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: tan
+  
+}
+
+#mission-statement {
+    height: 360px;
+    background-color: white;
+}
+
+#reserve-vehicle {
+    height: 180px;
+    background-color: rgb(14, 11, 11);
+}
+
+#youtube-vid {
+    height: 620px;
+    background-color: white;
+}
+
+#google-map {
+    height: 600px;
+    background-color: white;
+}
+
+#split-box {
+    height: 450px;
+    background-color: white;
+}
+
+#three-column-info {
+    height: 335px;
+    background-color: white;
+}
+
+#social-media {
+    height: 100px;
+    background-color: white;
+}
+#footer {
+    height: 60px;
+    background-color: rgb(14, 11, 11);
+}
