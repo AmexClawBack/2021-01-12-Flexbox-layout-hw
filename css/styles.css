@@ -1,8 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 html {
-    
-   width: auto;
+   width: 100%;
    height: auto;
-   border: 1px solid red;
+  
 }
 
 body {
@@ -10,21 +14,125 @@ body {
     flex-direction: column;
     margin: 0px;
     padding: 0px;
+    flex-wrap: wrap;
+    width: 100%;
 }
 
 div {
-    width: 100%;
+    width: auto;
     height: 50px;
-    border: 1px solid blue;
     background-color: rgb(136, 51, 136);
 }
 
-#navbar {
-    height: 60px;
-    position: fixed;
+
+
+
+
+#nav-container {
+    display: flex;
+    width: 100%;
+    height: 70px;
     background-color: white;
+    position: fixed;
+    padding-left: 40px;
+   border-bottom: 1px solid black;
+    
+}
+
+h4 {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    font-size: small;
+    margin: 17px;
+}
+
+#nav-right {
+    border-bottom: dotted 1px;
+    width: 39%;
+    height: auto;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+#language {
+    width: 23%;
+    height: 30%;
+    margin-left: 18%;
+    
 
 }
+
+h2 {
+    margin-left: 20px;
+    font-weight: 100;
+}
+
+#test-drive {
+    margin-left: 20px;
+    width: 80px;
+    height: 100%;
+    background-color: white;
+    border-left: none;
+    border-bottom: none;
+    border top: none;
+    border-right: solid black 1px;
+    padding-right: 10px;
+    
+    
+}
+
+#car-color {
+    color: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+#test-drive:hover {
+    background-color: gray;
+}
+#test-drive:car-color {
+    background-color: gray;
+}
+
+
+
+#p-color {
+    color: blue;
+    font-size: 7px;
+    margin-top: 10px;
+}
+
+#map {
+    border: none;
+    width: 80px;
+    height: 100%;
+    background-color: white;
+}
+
+#map-text {
+    margin-top:10px;
+    color: orangered;
+}
+
+#pin-color {
+    color: orangered;
+}
+
+#map:hover {
+    background-color: gray;
+}
+
+#language {
+    display: flex;
+    
+    justify-content: space-around;
+}
+
 
 #video-bg {
     height: 620px;
@@ -34,13 +142,12 @@ div {
 }
 
 #grey-space {
-    height: ;
-    background-color:  	#282828
+    background-color:#282828;
 }
 
 #parallax-bg {
     height: 550px;
-    background-image: url("#");
+    background-image: url("https://920993.smushcdn.com/2274312/wp-content/uploads/2017/09/Katzkin-Ford-Mustang-1-1.jpg?lossy=0&strip=1&webp=1");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
