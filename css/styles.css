@@ -36,16 +36,29 @@ div {
     position: fixed;
     padding-left: 40px;
    border-bottom: 1px solid black;
+   overflow: hidden;
+   
     
 }
 
-h4 {
-    display: flex;
+.button {
     align-items: center;
-    margin-left: 50px;
-    font-size: small;
-    margin: 17px;
+    border: none;
+    background-color: white;
+    font-weight: 800;
+    height: 100%;
+    margin-top: 1px;
+    width:110px;
+    display: inline-block;
 }
+
+
+.button:hover {
+    background-color: grey;
+    border: none;
+}
+
+
 
 #nav-right {
     border-bottom: dotted 1px;
@@ -135,7 +148,13 @@ h2 {
 
 
 #video-bg {
-    height: 620px;
+  
+    height: 550px;
+    background-image: url(https://car-images.bauersecure.com/pagefiles/90413/rr_phantom_01.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-color: tan
     
     
