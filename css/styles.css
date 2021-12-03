@@ -21,7 +21,7 @@ body {
 div {
     width: auto;
     height: 50px;
-    background-color: rgb(136, 51, 136);
+    /* background-color: rgb(136, 51, 136); */
 }
 
 
@@ -34,9 +34,9 @@ div {
     height: 70px;
     background-color: white;
     position: fixed;
-    padding-left: 40px;
+    padding-left: 10px;
    border-bottom: 1px solid black;
-   overflow: hidden;
+   
    
     
 }
@@ -45,10 +45,10 @@ div {
     align-items: center;
     border: none;
     background-color: white;
-    font-weight: 800;
-    height: 100%;
+    font-weight: 700;
+    height: 99%;
     margin-top: 1px;
-    width:110px;
+    width:120px;
     display: inline-block;
 }
 
@@ -61,7 +61,6 @@ div {
 
 
 #nav-right {
-    border-bottom: dotted 1px;
     width: 39%;
     height: auto;
     background-color: white;
@@ -89,7 +88,7 @@ h2 {
     background-color: white;
     border-left: none;
     border-bottom: none;
-    border top: none;
+    border-top: none;
     border-right: solid black 1px;
     padding-right: 10px;
     
@@ -155,10 +154,38 @@ h2 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: tan
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#first-box {
+    width: 40%;
+    height: 80%;
+    border: solid black 1px;
+    margin-top: 3%;
+    
+}
+
+#info-container {
+    display: flex;
+    width: 70%;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 15%;
     
     
 }
+
+.box {
+    width: 300px;
+    height: 300px;
+    border: solid black 1px;
+    margin: 10px;
+}
+
+
 
 #grey-space {
     background-color:#282828;
@@ -174,42 +201,179 @@ h2 {
     background-color: tan
   
 }
+#why-buy-here {
+    
+    width: 300px;
+    height: 50%;
+    font: 40px nobel-book;
+    margin:40px 200px 0px 0px;
+    text-align: center;
+}
 
-#mission-statement {
+#mission-text {
+    width: 600px;
+    height: 75%;
+    font: 21px Helvetica;
+    margin: 40px 0px 10px;
+
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+   
+    
+}
+
+li {
+    margin: 10px;
+    color: #333333;
+    font-style: italic;
+}
+
+
+
+#mission-statement-container {
     height: 360px;
     background-color: white;
+    display: flex;
+    justify-content: center;
+    
+    
+    
+    
 }
 
 #reserve-vehicle {
     height: 180px;
     background-color: rgb(14, 11, 11);
+    font: 20px;
+    
 }
+
+#reserve-text {
+    width: 50%;
+    height: 100%;
+    margin-left: 31%;
+    color: white;
+    font-size: 50px;
+    padding-top: 3%;   
+    display: flex;
+}
+
+#learn-more {
+    width: 150px;
+    height: 40px;
+    border: solid white 1px;
+    background-color: white;
+    font-size: large;
+    margin-left: 30px;
+    margin-top: 10px;
+    border: solid black 1px;
+    font-weight: bold;
+}
+
 
 #youtube-vid {
     height: 620px;
     background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #dfd5d5
 }
 
 #google-map {
     height: 600px;
     background-color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 #split-box {
     height: 450px;
     background-color: white;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+
+}
+
+.message-box {
+    width: 600px;
+    height: 80%;
+    border-right: solid 1px black;
+    border: solid 1px red; /* comment this out when done editing*/
+    margin-top: 40px;
+    
+}
+.message-box1 {
+    width: 600px;
+    height: 80%;
+    border: solid 1px red;
+    
+    margin-top: 40px;
 }
 
 #three-column-info {
-    height: 335px;
+    height: 100%;
     background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid black;
+}
+
+#more-info {
+    width: 300px;
+    height: 300px;
+    border: solid black 1px;
+    display: flex;
+    flex-direction: column;
+    
 }
 
 #social-media {
     height: 100px;
     background-color: white;
+    border: 1px red solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+#social-bar {
+    width: 50%;
+    height: 100%;
+    border: solid black 1px;
+    align-items: center;
+    display: flex;
+}
+
+#follow-us {
+    font-size: x-large;
+    margin-left: 30%;
+    
+}
+
+.icons {
+    width: 30px;
+    margin-left: 30px;
+    
+}
+
+
 #footer {
     height: 60px;
     background-color: rgb(14, 11, 11);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer-box {
+    color: white;
 }
