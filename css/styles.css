@@ -7,16 +7,23 @@ html {
    width: 100%;
    height: auto;
   
+  
+ 
+ 
 }
 
 body {
-    display: flex;
-    flex-direction: column;
     margin: 0px;
     padding: 0px;
-    flex-wrap: wrap;
     width: 100%;
+    
 }
+
+/* @media (max-width: 800px) {
+    html {
+        flex-direction: column;
+    }
+} */
 
 div {
     width: auto;
@@ -36,11 +43,20 @@ div {
     position: fixed;
     padding-left: 10px;
    border-bottom: 1px solid black;
-   
-   
-    
+  
 }
 
+@media (max-width: 800px) {
+    #nav-container  {
+        flex-basis: 50%;
+        flex-wrap: wrap;
+        
+       
+    }
+
+  
+    
+}
 .button {
     align-items: center;
     border: none;
@@ -76,10 +92,7 @@ div {
 
 }
 
-h2 {
-    margin-left: 20px;
-    font-weight: 100;
-}
+
 
 #test-drive {
     margin-left: 20px;
@@ -201,6 +214,8 @@ h2 {
     background-color: tan
   
 }
+
+
 #why-buy-here {
     
     width: 300px;
@@ -240,6 +255,7 @@ li {
     background-color: white;
     display: flex;
     justify-content: center;
+    overflow: auto;
     
     
     
@@ -297,7 +313,7 @@ li {
 #split-box {
     height: 450px;
     background-color: white;
-    border: 1px solid black;
+  
     display: flex;
     justify-content: center;
 
@@ -307,14 +323,14 @@ li {
     width: 600px;
     height: 80%;
     border-right: solid 1px black;
-    border: solid 1px red; /* comment this out when done editing*/
+    border: solid 1px black; /* comment this out when done editing*/
     margin-top: 40px;
     
 }
 .message-box1 {
     width: 600px;
     height: 80%;
-    border: solid 1px red;
+    border: solid 1px black; /* comment out when done editing */
     
     margin-top: 40px;
 }
@@ -324,7 +340,7 @@ li {
     background-color: white;
     display: flex;
     justify-content: space-evenly;
-    border: 1px solid black;
+    
 }
 
 #more-info {
@@ -339,7 +355,7 @@ li {
 #social-media {
     height: 100px;
     background-color: white;
-    border: 1px red solid;
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -348,7 +364,7 @@ li {
 #social-bar {
     width: 50%;
     height: 100%;
-    border: solid black 1px;
+    
     align-items: center;
     display: flex;
 }
